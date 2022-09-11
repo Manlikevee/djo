@@ -168,9 +168,14 @@ color: rgba(115, 115, 115, 1);
     margin-top: 35px;
 }
 
-.flexheader{
-    display: flex;
-    justify-content: space-between;
+.flexheader {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.add_investment{
+  margin-left: auto;
 }
 
 .flexinput{
@@ -435,9 +440,22 @@ text-align: left;
 
 .investment_card_row{
     display: flex;
-    justify-content: space-between;
+    grid-gap: 10px;
     margin-top: 20px;
     width: 100%;
+}
+.investment_card_orange_text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #EB7F35;
+  word-break: break-all;
+}
+
+.investment_card_column{
+  width: 100%;
 }
 
 .investment_card_brown_text{
